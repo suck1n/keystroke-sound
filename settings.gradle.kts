@@ -1,1 +1,1 @@
-rootProject.name = "keystroke-sound"
+rootProject.name = "Keystroke Sound"

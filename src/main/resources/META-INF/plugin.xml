@@ -1,18 +1,11 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.suck1n.keystrokesound</id>
-    <name>keystroke-sound</name>
+    <name>Keystroke Sounds</name>
     <vendor>suck1n</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.suck1n.keystrokesound.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.suck1n.keystrokesound.services.MyProjectService"/>
+        <postStartupActivity implementation="com.github.suck1n.keystrokesound.listeners.AppStarterListener"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.suck1n.keystrokesound.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

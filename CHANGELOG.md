@@ -1,7 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# keystroke-sound Changelog
+# Keystroke Sound - Changelog
 
-## [Unreleased]
+## 0.1
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Mechanical Click-Sounds while typing
