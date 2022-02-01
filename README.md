@@ -12,7 +12,7 @@ Plays a mechanical keystroke sound whenever you are typing, just like in the bro
 
 - Using IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "keystroke-sound"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Keystroke Sound"</kbd> >
   <kbd>Install Plugin</kbd>
   
 - Manually:

@@ -2,6 +2,8 @@
 
 # Keystroke Sound - Changelog
 
-## 0.1
+## [Unreleased]
+
+## [0.0.2]
 ### Added
 - Mechanical Click-Sounds while typing
