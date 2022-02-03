@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>com.github.suck1n.keystrokesound</id>
+    <id>com.github.duckin.keystrokesound</id>
     <name>Keystroke Sounds</name>
-    <vendor>suck1n</vendor>
+    <vendor>duckin</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <postStartupActivity implementation="com.github.suck1n.keystrokesound.listeners.AppStarterListener"/>
+        <postStartupActivity implementation="com.github.duckin.keystrokesound.listeners.AppStarterListener"/>
     </extensions>
 </idea-plugin>

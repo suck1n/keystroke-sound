@@ -1,4 +1,4 @@
-package com.github.suck1n.keystrokesound.listeners;
+package com.github.duckin.keystrokesound.listeners;
 
 import com.intellij.ide.IdeEventQueue;
 import com.intellij.openapi.project.Project;

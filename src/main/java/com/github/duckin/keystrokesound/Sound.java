@@ -1,4 +1,4 @@
-package com.github.suck1n.keystrokesound;
+package com.github.duckin.keystrokesound;
 
 import javax.sound.sampled.*;
 import java.awt.event.KeyEvent;
