@@ -1,7 +1,7 @@
-package com.github.duckin.keystrokesound.listeners;
+package com.github.suck1n.keystrokesound.listeners;
 
 
-import com.github.duckin.keystrokesound.Sound;
+import com.github.suck1n.keystrokesound.Sound;
 import com.intellij.ide.IdeEventQueue;
 import org.jetbrains.annotations.NotNull;
 
