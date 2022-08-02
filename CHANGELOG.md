@@ -4,10 +4,6 @@
 
 ## [Unreleased]
 
-## [0.0.4]
-### Upgrade
-- Upgrade dependencies to support new idea versions
-
 ## [0.0.3]
 ### Added
 - Plugin Icon
