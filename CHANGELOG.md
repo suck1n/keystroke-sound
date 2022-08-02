@@ -4,6 +4,12 @@
 
 ## [Unreleased]
 
+## [0.0.4]
+### Changed
+- Changed idea version to support current versions
+
+**Full Changelog**: https://github.com/suck1n/keystroke-sound/commits/v0.0.4
+
 ## [0.0.3]
 ### Added
 - Plugin Icon
