@@ -96,8 +96,13 @@ tasks {
 
     signPlugin {
         password.set(System.getenv("PRIVATE_KEY_PASSWORD"))
-        certificateChain.set(System.getenv("CERTIFICATE_CHAIN") ?: File(".\\keys\\chain.crt").readText(Charsets.UTF_8))
-        privateKey.set(System.getenv("PRIVATE_KEY") ?: File( ".\\keys\\private.pem").readText(Charsets.UTF_8))
+        try {
+            privateKey.set(File("./keys/private.pem").readText(Charsets.UTF_8))
+            certificateChain.set(File("./keys/chain.crt").readText(Charsets.UTF_8))
+        } catch (ignore: java.io.FileNotFoundException) {
+            privateKey.set(System.getenv("PRIVATE_KEY"))
+            certificateChain.set(System.getenv("CERTIFICATE_CHAIN"))
+        }
     }
 
     publishPlugin {
